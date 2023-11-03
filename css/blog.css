@@ -61,6 +61,13 @@
     text-align: end;
     
 }
+
+@media screen and (min-width:993px) {
+    .phoneLogo {
+        display: flex !important;
+    }
+}
+
 @media(max-width:48rem){
     section div .m-articles{
     line-height: 2rem;
@@ -75,8 +82,8 @@
         padding-top: 5rem;
     }
     section div .c-articles{
-        padding-top: 5rem;
-        padding-right: 5rem;
+        padding-top: 3rem;
+        padding-right: 3rem;
         
 
     }
@@ -191,6 +198,42 @@
     padding: 4rem 0 ;
 
 }
+
+@media(min-width:34.375rem){
+   
+   
+    .box{
+        padding-left: 3rem;
+        
+    }
+    .blog-apple{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.3125rem;
+        background-color: white;
+    }
+    .blog-google{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        border-radius: 0.3125rem;
+        background-color: white;
+    }
+    
+}
+    .p-google{
+        color: #000;
+        font-family: DM Sans;
+        font-size: 0.2rem;
+        font-weight: 600;
+       /* line-height: 1.5;*/
+        padding-top: 1rem;
+    }
+    .googleplay{
+        color: #000;
+        font-family: DM Sans;
+        font-size: 1rem;
+        font-weight: 600;
+}
 .d-section{
     color: #FFF;
     font-family: Inter;
@@ -208,22 +251,27 @@
     font-weight: 500;
     line-height: 1.5; 
 }
-
+@media(max-width:34.375rem){
+    .asmart{
+        align-items: center;
+        justify-content: center;
+        
+    }
 .blog-apple{
     border-radius: 0.3125rem;
     background-color: white;
-    padding-left: 2rem;
-    padding-right: 4rem;
+    padding-right: 3rem;
 }
+
 .box{
-    padding-left: 3rem;
+    padding-left: 1rem;
     
 }
 .blog-google{
     border-radius: 0.3125rem;
     background-color: white;
-    padding-left: 2rem;
-    padding-right: 4rem;
+    padding-right: 3rem;
+}
 }
 .p-apple{
     color: #000;
